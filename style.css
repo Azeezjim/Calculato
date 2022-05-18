@@ -26,7 +26,14 @@ input{
   grid-column: span 4;
   height: 68px;
   width: 256px;
-  box-shadow: inset 6px 6px 13px #fff, 6px, 6px, 13px, rgba(0,0,0,0.16);
+  box-shadow: inset -6px -6px 13px #fff, -6px, -6px, 13px, inset rgba(0,0,0,0.16);
   background-color: #ecf0f3;
-  bottom: none;
+  border: none;
+  border-radius: 32px;
+  color: #333;
+  text-align: end;
+  margin: 40px 0 30px 0;
+  padding: 20px;
+  font-size: 40px;
+
 }
