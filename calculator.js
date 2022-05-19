@@ -19,5 +19,5 @@ function clear(){
 } 
 
 function del() {
-  result.
+  result.value
 }
