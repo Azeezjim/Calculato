@@ -1,12 +1,23 @@
 let result = document.getElementById('inputtext');
 
 let calculate= (number) => {
-  result.value = result.value + number
+  result.value += number
 }
 
-let Result = () => {
+let Result = () => { 
 
   try{
-    result.value
+    result.value=eval(result.value)
   }
+  catch(err) {
+    alert("Invald entery")
+  }
+}
+
+function clear(){
+  result.value = " ";
+} 
+
+function del() {
+  result.
 }
